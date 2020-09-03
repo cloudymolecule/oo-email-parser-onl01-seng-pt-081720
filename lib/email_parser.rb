@@ -23,6 +23,7 @@ class EmailAddressParser
         res << i
       end
     end
+    res.uniq!
     res
     #binding.pry
   end
